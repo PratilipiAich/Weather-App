@@ -104,7 +104,7 @@ function Weather() {
                 </div>
                 <div className="min-max">
                   <span>{Math.round(weather.main.temp_min)}&deg;c</span>
-                  <span style={{ marginLeft: "150px" }}>
+                  <span style={{ marginLeft: "50px" }}>
                     {Math.round(weather.main.temp_min)}&deg;c
                   </span>
                 </div>
