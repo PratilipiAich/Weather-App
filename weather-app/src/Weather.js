@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "weather-icons/css/weather-icons.css";
 
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 const api = {
-  key: "b34b0ccf907c9655450d3ad093fc001e",
+  key: API_KEY,
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
